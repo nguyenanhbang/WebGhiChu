@@ -1,0 +1,262 @@
+html,
+    body {
+      height: 100%;
+      min-width: 100%;
+      margin: 0;
+      padding: 0;
+      font: size 100%;
+    }
+
+    h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 900;
+    }
+
+    body {
+      background: #f7fafc;
+      color: #4a5568
+    }
+
+    body.dark {
+      color: #f7fafc;
+      background: #4a5568
+    }
+
+    div.main {
+      display: flex;
+      height: 100%;
+    }
+
+    aside.sidebar {
+      width: 300px;
+      background: #edf2f7;
+      height: 100%;
+      padding: 25px;
+    }
+
+    .dark.aside.sidebar {
+      background: #718096;
+    }
+
+    section.holder {
+      width: 100%;
+      height: 100%;
+      padding: 25px;
+    }
+
+    div.icon {
+      height: 30px;
+      width: 30px;
+      line-height: 30px;
+      font-size: 28px;
+    }
+
+    .holder div.icon {
+      cursor: pointer;
+    }
+
+    .deletePage {
+      margin-right: 15px;
+    }
+
+    .deletePage,
+    .savePage,
+    .cbpick {
+      float: left;
+      padding: 10px 20px;
+      background: transparent;
+      border-radius: 3px;
+      border: 2px solid;
+      color: black;
+      font-weight: bold;
+      /* text-transform: uppercase;
+      letter-spacing: 4px; */
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .deletePage:hover,
+    .savePage:hover {
+      background: rgb(48, 48, 48);
+      color: white
+    }
+
+    .new-nodes:hover {
+      cursor: pointer;
+      background: rgb(130, 128, 128);
+      color: white;
+      padding: 1px;
+    }
+
+    .intLink {
+      cursor: pointer;
+    }
+
+    img.intLink {
+      border: 0;
+    }
+
+    #toolBar1 select {
+      font-size: 10px;
+    }
+
+    #textBox {
+      /* min-height: 100px; */
+      width: 80%;
+      max-width: 80%;
+      height: 100%;
+      border: 0px #000000 solid;
+      background: #c2ffff;
+      border-radius: 5px;
+      /* overflow: scroll; */
+    }
+
+    #textBox #sourceText {
+      padding: 0;
+      margin: 0;
+      min-width: 600px;
+      min-height: 200px;
+
+    }
+
+
+    #editMode label {
+      cursor: pointer;
+    }
+
+    [contentEditable]:focus {
+      outline: 0px solid transparent;
+    }
+
+    [placeholder]:empty::before {
+      content: attr(placeholder);
+      color: rgb(50, 48, 48);
+      opacity: 0.5;
+      cursor: text;
+    }
+
+    [placeholder]:empty:focus:before {
+      content: "";
+    }
+
+    [contenteditable="true"].single-line {
+      white-space: nowrap;
+      width: 40%;
+      overflow: auto;
+      float: left;
+    }
+
+    /* [contenteditable="true"].single-line br {
+      display: none;
+
+    }
+
+    [contenteditable="true"].single-line * {
+      display: inline;
+      white-space: nowrap;
+    } */
+
+    .avatar {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .dropbtn {
+      color: white;
+      padding: 0px;
+      border: none;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    } */
+    
+    .vertical-menu {
+      width: 100%;
+      height: 300px;
+      overflow-y: scroll;
+    }
+
+    .vertical-menu div {
+      background-color: #eee;
+      color: black;
+      display: block;
+      padding: 12px;
+    }
+
+    .vertical-menu div:hover {
+      background: #a3c1ee;
+      cursor: pointer;
+    }
+
+    .vertical-menu div.active {
+      background: rgb(58, 177, 2);
+      color: white
+    }
+
+    .btn-tk:focus {
+      cursor: pointer;
+    }
+
+    .ndghichu {
+      float: left;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .action {
+      width: 100%;
+      float: left;
+    }
+
+    .edit {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .single-line {
+      float: left;
+    }
+
+    .single-line,
+    .toolBar {
+      float: left;
+    }
+
+    .cbpick {
+      padding: auto;
+      margin-left: 200px;
+      border: 0px;
+    }

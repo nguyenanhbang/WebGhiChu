@@ -1,0 +1,22 @@
+{
+    "name": "minh0/webghichu",
+    "description": "minh",
+    "authors": [
+        {
+            "name": "minh"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "twig/twig": "~2.0",
+        "php-http/guzzle6-adapter": "^2.0",
+        "php-http/message": "^1.13",
+        "symfony/asset": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+             "Core\\": "Core/",
+             "App\\": "App/"
+        }
+    }
+}
